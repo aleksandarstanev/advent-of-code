@@ -91,7 +91,7 @@ fn part_two(input: Vec<(i32, i32)>) -> (i32, i32) {
 }
 
 fn main() -> io::Result<()> {
-    let file_path = "input.txt";
+    let file_path = "inputz.txt";
     let file = File::open(&file_path)?;
 
     let reader = io::BufReader::new(file);
